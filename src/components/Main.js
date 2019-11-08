@@ -108,14 +108,7 @@ class Main extends React.Component {
               </a>
             </li>
             
-            <li>
-              <a
-                href="https://resume.creddle.io/resume/c16zlr0hw23"
-                className="icon fa-file-text-o"
-              >
-                <span className="label">Resume</span>
-              </a>
-            </li>
+            
             
           </ul>
           {close}

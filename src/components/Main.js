@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import family from '../images/family.jpg'
 import pic03 from '../images/pic03.jpg'
+import replate from '../images/replate_three_panel.png'
 
 class Main extends React.Component {
   render() {
@@ -30,22 +31,17 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={family} alt="" />
+            <img src={replate} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          A demo app that allows users to sign-up as businesses or volunteers, 
+          and simulates the job flow of the RePlate platform (re-plate.org). 
+          Businesses can post/edit/delete food pickups, and volunteers can claim/complete 
+          these pickups that they'll in turn deliver to shelters and soup kitchens. 
+
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          Examples of: Java, Fragment Interactions, Handmade Network Adapter, RegEx Field Validation, CRUD functionality
           </p>
           {close}
         </article>

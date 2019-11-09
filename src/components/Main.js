@@ -34,7 +34,7 @@ class Main extends React.Component {
             <img src={replate} alt="" />
           </span>
           <p>
-          A demo app that allows users to sign-up as businesses or volunteers, 
+          An app that allows users to sign-up as businesses or volunteers, 
           and simulates the job flow of the RePlate platform (re-plate.org). 
           Businesses can post/edit/delete food pickups, and volunteers can claim/complete 
           these pickups that they'll in turn deliver to shelters and soup kitchens. 
@@ -49,7 +49,7 @@ class Main extends React.Component {
             <img src={tech2rent} alt="" />
           </span>
           <p>
-          A demo app that allows users to list items that can be rented by other users.
+          An app that allows users to list items that can be rented by other users.
           Utilizing a full
           <a href="https://www.notion.so/Tech2Rent-fe7c1d9468e9478e9926f6d1e264fd58"> Feature Canvas </a>
           and weekly sprint model, I worked in collaboration with UX/UI, Webdev, and Android teams to 

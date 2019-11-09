@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import family from '../images/family.jpg'
-import pic03 from '../images/pic03.jpg'
+import tech2rent from '../images/tech2rent_first_render.png'
 import replate from '../images/replate_three_panel.png'
 
 class Main extends React.Component {
@@ -43,6 +43,24 @@ class Main extends React.Component {
           <p>
           Examples of: Java, Fragment Interactions, Handmade Network Adapter, RegEx Field Validation, CRUD functionality
           </p>
+
+
+          <span className="image main">
+            <img src={tech2rent} alt="" />
+          </span>
+          <p>
+          A demo app that allows users to list items that can be rented by other users.
+          Utilizing a full
+          <a href="https://www.notion.so/Tech2Rent-fe7c1d9468e9478e9926f6d1e264fd58"> Feature Canvas </a>
+          and weekly sprint model, I worked in collaboration with UX/UI, Webdev, and Android teams to 
+          bring this project to life. 
+
+          </p>
+          <p>
+          Examples of: Kotlin, Okhttp, Picasso, RxJava, Auth0 Integration, CI/CD Workflow, Custom UI elements
+          </p>
+
+
           {close}
         </article>
 

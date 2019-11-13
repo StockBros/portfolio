@@ -79,6 +79,14 @@ class Main extends React.Component {
           Pictured here with my wonderful wife,
           Emily, and our 1-year old son, Kentucky.
           </p>
+
+          <p>
+          I love hiking and camping. Our last excursion was to city of rocks,
+          which was beautiful. We often do primitive camping, and really rough it,
+          but decided to take a tent because it was our first time camping with our
+          son.
+
+          </p>
           {close}
         </article>
 
